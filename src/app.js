@@ -1,5 +1,6 @@
-console.log('Hello!');
 import React from 'react';
 import {render} from 'react-dom';
+import ArticleList from './ArticleList';
+import {articles} from './fixtures';
 
-render(<h1>Hello World</h1>, document.getElementById('container'));
+render(<ArticleList articles={articles} />, document.getElementById('container'));
