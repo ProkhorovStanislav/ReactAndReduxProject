@@ -13,10 +13,6 @@ class Article extends Component {
     }).isRequired
   };
 
-  componentDidMount() {
-    console.log('Mounted');
-  }
-
   render() {
     const {article, toggleOpen} = this.props;
     return (
@@ -37,4 +33,4 @@ class Article extends Component {
   }
 }
 
-export default toggleOpen(Article);
+export default Article;
